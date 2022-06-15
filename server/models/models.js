@@ -88,8 +88,3 @@ module.exports = {
     TypeBrand,
     DeviceInfo
 }
-
-
-
-
-
