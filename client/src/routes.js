@@ -7,34 +7,34 @@ import { ADMIN_ROUTE, BASKET_ROUTE, DEVICE_ROUTE, LOGIN_ROUTE, REGISTRATION_ROUT
 
 export const authRoutes = [
     {
-        patch: ADMIN_ROUTE,
-        Component: Admin
+        path: ADMIN_ROUTE,
+        Component: <Admin/>
     },
     {
-        patch: BASKET_ROUTE,
-        Component: Bascket
+        path: BASKET_ROUTE,
+        Component: <Bascket/>
     },
 ]
 
 export const publicRoutes = [
     {
-        patch: SHOP_ROUTE,
-        Component: Shop
+        path: SHOP_ROUTE,
+        Component: <Shop/>
     },
     {
-        patch: BASKET_ROUTE,
-        Component: Bascket
+        path: BASKET_ROUTE,
+        Component: <Bascket/>
     },
     {
-        patch: LOGIN_ROUTE,
-        Component: Auth
+        path: LOGIN_ROUTE,
+        Component: <Auth/>
     },
     {
-        patch: REGISTRATION_ROUTE,
-        Component: Admin
+        path: REGISTRATION_ROUTE,
+        Component: <Auth/>
     },
     {
-        patch: DEVICE_ROUTE,
-        Component: DevicePage
+        path: DEVICE_ROUTE + "/:id",
+        Component: <DevicePage/>
     },
 ]
