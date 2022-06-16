@@ -22,10 +22,6 @@ export const publicRoutes = [
         Component: <Shop/>
     },
     {
-        path: BASKET_ROUTE,
-        Component: <Bascket/>
-    },
-    {
         path: LOGIN_ROUTE,
         Component: <Auth/>
     },
