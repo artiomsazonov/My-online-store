@@ -30,7 +30,6 @@ const Auth = observer(() => {
             user.setIsAuth(true)
             navigate(SHOP_ROUTE)
         } catch (e) {
-            debugger
             alert(e.response.data.message)
         }
     }
